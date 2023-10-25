@@ -1,0 +1,28 @@
+---
+title: "Module 6 Project"
+author: "Hannah Sutoris, Baylie Larson and Susanne Hahs "
+date: "2023-10-25"
+output: html_document
+---
+
+## Are the rates of wing-shape evolution different between the hind- and forewing?- by how much
+##Are hind-forewing shapes correlated?
+##What inferences can you make based on shape correlations and flight control
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Introduction
+The order of Lepidoptera is composed of a vast array and variety of species who specialize in paired wing flight. It has been theorized that the hind and forewings perform varying functions. The forewing is necessary for flight and therefore experiences a stabilizing rate of selection. Meanwhile the hindwing could have different evolutionary determinants such as sexual selection. Therefore, the forewing and the hindwing of the Lepidotopera could experience differing rates ofevolution due to their varying selection pressures. 
+There is limited research on whether or not forewing and hindwing shapes are related. With the expansive selection of data, this will give a better idea on how 
+
+##Methods
+
+Phylogenetically independent contrasts (PIC) was used to transform the original mean values for each set of species into data that are independent and distributed.
+##Results
+
+##Discussion
+
+#Author Contributions
+
