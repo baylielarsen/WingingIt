@@ -205,3 +205,4 @@ PC1.pic %>%
      ggplot(aes(x=fore,y=hind))+geom_point()+geom_smooth(method="lm")
 
 summary(lm(hind~fore,PC1.pic))
+
