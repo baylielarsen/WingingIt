@@ -27,7 +27,7 @@ Image acquistion of this project was made possible by utilizing FIJI to trace th
 
 The shape analysis resulted in the following graphs:
 ```{r}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("Forewing plot.pdf")
 knitr::include_graphics("Hindwing plot.pdf")
 knitr::include_graphics("regression of hind and fore.pdf")
