@@ -49,4 +49,4 @@ Hannah Sutoris: Bibliography, Introduction, Methods, Results, Discussion, Image 
 
 Baylie Larson: Image Digitization, Shape Analysis, Comparative analysis, Evolutionary rate analysis, shape evolution correlation
 
-Susanne Hahs: Image Digitization
+Susanne Hahs: Image Digitization, 
