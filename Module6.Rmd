@@ -10,10 +10,6 @@ bibliography: BIOL2140.bib
 ##Are hind-forewing shapes correlated?
 ##What inferences can you make based on shape correlations and flight control
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Introduction
 The order of Lepidoptera is composed of a vast array and variety of species who specialize in paired wing flight. It has been theorized that the hind and forewings perform varying functions. The forewing is necessary for flight and therefore experiences a stabilizing rate of selection. Meanwhile the hindwing could have different evolutionary determinants such as sexual selection. Therefore, the forewing and the hindwing of the Lepidotopera could experience differing rates of evolution due to their varying selection pressures.
 There is limited research on whether or not forewing and hindwing shapes are related. With the expansive selection of data, this will give a better idea on how the evolutionary rates and correlation of the forewing and hindwing.  @le2019adaptive confirms, "Habitat, predators and sex-specific behaviours are likely to be major selective forces acting on wing shape evolution in butterflies." This project will study the wing-shape evolution using an expansive database of lepidoptera and a morphometric approach.
