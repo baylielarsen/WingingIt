@@ -1,0 +1,53 @@
+
+Hannah Sutoris
+9:38 PM (0 minutes ago)
+
+to Susanne, me
+
+---
+title: "Module 6 Project"
+author: "Hannah Sutoris, Baylie Larson and Susanne Hahs "
+date: "2023-10-25"
+output: html_document
+bibliography: BIOL2140.bib
+---
+
+## Are the rates of wing-shape evolution different between the hind- and forewing?- by how much
+## Are hind-forewing shapes correlated?
+## What inferences can you make based on shape correlations and flight control
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+The order of Lepidoptera is composed of a vast array and variety of species who specialize in paired wing flight. It has been theorized that the hind and forewings perform varying functions. The forewing is necessary for flight and therefore experiences a stabilizing rate of selection. Meanwhile the hindwing could have different evolutionary determinants such as sexual selection. Therefore, the forewing and the hindwing of the Lepidotopera could experience differing rates of evolution due to their varying selection pressures. 
+There is limited research on whether or not forewing and hindwing shapes are related. With the expansive selection of data, this will give a better idea on how the evolutionary rates and correlation of the forewing and hindwing.  @le2019adaptive confirms, "Habitat, predators and sex-specific behaviours are likely to be major selective forces acting on wing shape evolution in butterflies." This project will study the wing-shape evolution using an expansive database of lepidoptera and a morphometric approach.
+
+## Methods
+
+Image acquistion of this project was made possible by utilizing FIJI to trace the hindwing and forewing for each species of lepidoptera in the database. This allowed for each species to have XY coordinates for the wing outlines.Shape analysis was accomplished through outline-base shape analysis. The elliptical Fourier analysis (EFA) uses ellipses to fit ellipses as a way to form the outline. After the EFA a principal component analysis (PCA) is performed. The PCA allows the data to be easily understood. 
+     Procrustes analysis is perfromed which is a statistical analysis of the distribution of shapes. Through a superimposition, the wings can be analyzed in the same orientation. This alignment is then performed onto a mean shape known as generalized Procrustes analysis. 2PCs for each wing is stored for further analysis. The evolutionary rates are studied through the "noncensored" test which Brownian motion analyzes the entire phylogenic tree. Only the tips that are in the PCA sata and PCA data in the tree are kept. These values allow for the comparsion of evolutionary rate for PC1 and PC2. The phylogenetic independent contrasts (PIC) was used to transform the original mean values for each set of species into data that are independent and distributed.. Then study if the PC1s are correlated on a linear regression.
+
+## Results
+
+The shape analysis
+
+
+```{r pressure, echo=FALSE}
+
+```
+The regression line between the forewing and hindwing resulted in a p-value< 2.2e-16. The r squared value was 0.4744.
+
+## Discussion
+
+The p-value of the regression line reveals that the forewing and hindwing are statistically correlated. The r squared value was 0.4744 which implied limited variation. 
+
+@cespedes2015cruising
+
+
+#Author Contributions
+
+Hannah Sutoris: Bibliography, Introduction, Methods, data acquistion
+
+Baylie Larsen: Data acquisition, coding and code editing
