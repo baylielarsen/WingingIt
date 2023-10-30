@@ -1,9 +1,4 @@
 
-Hannah Sutoris
-9:38 PM (0 minutes ago)
-
-to Susanne, me
-
 ---
 title: "Module 6 Project"
 author: "Hannah Sutoris, Baylie Larson and Susanne Hahs "
@@ -51,3 +46,5 @@ The p-value of the regression line reveals that the forewing and hindwing are st
 Hannah Sutoris: Bibliography, Introduction, Methods, data acquistion
 
 Baylie Larsen: Data acquisition, coding and code editing
+
+Susanne Hahs: Data acquisition, 
