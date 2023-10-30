@@ -26,12 +26,18 @@ Image acquistion of this project was made possible by utilizing FIJI to trace th
 ## Results
 
 The shape analysis resulted in the following graphs:
-```{r}
-knitr::opts_chunk$set(echo = FALSE)
+
+
+
+```{r, echo = FALSE}
+
 knitr::include_graphics("Forewing plot.pdf")
+
 knitr::include_graphics("Hindwing plot.pdf")
+
 knitr::include_graphics("regression of hind and fore.pdf")
 ```
+
 This allows the PCA to be visualized in the graph
 
 The regression line between the forewing and hindwing resulted in a p-value< 2.2e-16. The r squared value was 0.4744.
@@ -44,5 +50,7 @@ The p-value of < 2.2e-16 signifies that the results are statistically significan
 #Author Contributions
 
 Hannah Sutoris: Bibliography, Introduction, Methods, Results, Discussion, Image Digitization
+
 Baylie Larson: Image Digitization, Shape Analysis, Comparative analysis, Evolutionary rate analysis, shape evolution correlation
+
 Susanne Hahs: Image Digitization
